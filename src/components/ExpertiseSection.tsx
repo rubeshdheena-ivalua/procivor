@@ -3,7 +3,7 @@ import { Server, Database, Shield, Workflow } from "lucide-react";
 const expertiseAreas = [
   {
     icon: Server,
-    title: "SAP S/4 & Oracle Integration",
+    title: "ERP System Integration",
     items: ["SAP S/4HANA & ECC", "Oracle EBS & Fusion", "JD Edwards & PeopleSoft"],
   },
   {
@@ -38,7 +38,7 @@ const ExpertiseSection = () => {
           <p className="text-body-large">
             Deep expertise in enterprise integration architectures, 
             ensuring your Ivalua platform connects seamlessly with 
-            existing systems.
+            existing systems — secure, scalable, and audit-ready.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const ExpertiseSection = () => {
           {expertiseAreas.map((area, index) => (
             <div
               key={area.title}
-              className="p-8 bg-card rounded-lg border border-border/50 transition-all duration-300 hover:shadow-card"
+              className="p-8 bg-card rounded-lg border border-border/50 transition-all duration-300 hover:shadow-card hover:border-accent/20"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="flex items-start gap-6">
@@ -62,9 +62,9 @@ const ExpertiseSection = () => {
                     {area.items.map((item) => (
                       <li 
                         key={item}
-                        className="flex items-center gap-2 text-muted-foreground"
+                        className="flex items-center gap-3 text-muted-foreground"
                       >
-                        <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
                         {item}
                       </li>
                     ))}
@@ -76,21 +76,24 @@ const ExpertiseSection = () => {
         </div>
 
         {/* Technical Highlight */}
-        <div className="mt-16 p-8 bg-muted rounded-lg">
+        <div className="mt-16 p-8 bg-muted rounded-lg border border-border/50">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-accent mb-2">ETL / EAI</div>
+              <div className="text-2xl md:text-3xl font-bold text-accent mb-2">ETL / EAI</div>
               <p className="text-sm text-muted-foreground">Data Integration</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-accent mb-2">REST / SOAP</div>
+              <div className="text-2xl md:text-3xl font-bold text-accent mb-2">REST / SOAP</div>
               <p className="text-sm text-muted-foreground">API Protocols</p>
             </div>
             <div>
-              <div className="text-3xl font-bold text-accent mb-2">SQL / PL-SQL</div>
+              <div className="text-2xl md:text-3xl font-bold text-accent mb-2">SQL / PL-SQL</div>
               <p className="text-sm text-muted-foreground">Data Management</p>
             </div>
           </div>
+          <p className="text-center mt-8 text-muted-foreground italic">
+            No slideware. No over-engineering. Only delivery-ready solutions.
+          </p>
         </div>
       </div>
     </section>

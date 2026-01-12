@@ -2,12 +2,12 @@ const phases = [
   {
     number: "01",
     title: "Discover & Fit-Gap",
-    description: "Comprehensive requirements gathering and fit-gap analysis against Ivalua capabilities.",
+    description: "Comprehensive requirements analysis and gap identification against Ivalua capabilities.",
   },
   {
     number: "02",
     title: "Architecture & Design",
-    description: "Solution architecture, integration design, and technical specification development.",
+    description: "Solution architecture, integration blueprints, and technical specification development.",
   },
   {
     number: "03",
@@ -17,12 +17,12 @@ const phases = [
   {
     number: "04",
     title: "Test & Stabilize",
-    description: "End-to-end testing, UAT support, and performance optimization.",
+    description: "End-to-end testing, UAT support, performance optimization, and production readiness.",
   },
   {
     number: "05",
     title: "Go-Live & Hypercare",
-    description: "Production deployment, cutover support, and intensive post-launch stabilization.",
+    description: "Production deployment, cutover execution, and intensive post-launch stabilization.",
   },
 ];
 
@@ -41,8 +41,8 @@ const ApproachSection = () => {
             <span className="text-accent">Accountable Delivery.</span>
           </h2>
           <p className="text-lg text-primary-foreground/70">
-            Our delivery framework ensures predictable outcomes with clear 
-            milestones and production-grade quality at every phase.
+            A proven delivery framework that ensures predictable outcomes 
+            with clear milestones and production-grade quality at every phase.
           </p>
         </div>
 
@@ -78,9 +78,9 @@ const ApproachSection = () => {
 
         {/* Bottom Emphasis */}
         <div className="mt-16 pt-12 border-t border-primary-foreground/10 text-center">
-          <p className="text-primary-foreground/70 text-lg max-w-2xl mx-auto">
-            Every phase is architect-led with clear accountability. 
-            No handoffs, no surprises — just production-grade delivery.
+          <p className="text-primary-foreground/80 text-lg max-w-3xl mx-auto italic">
+            "Each phase is personally owned by the Solution Architect, ensuring 
+            consistency, accountability, and production-grade outcomes."
           </p>
         </div>
       </div>
