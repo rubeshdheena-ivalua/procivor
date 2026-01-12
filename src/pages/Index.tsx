@@ -5,6 +5,7 @@ import WhyValuaxSection from "@/components/WhyValuaxSection";
 import ApproachSection from "@/components/ApproachSection";
 import ExpertiseSection from "@/components/ExpertiseSection";
 import AboutSection from "@/components/AboutSection";
+import EngagementSection from "@/components/EngagementSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -19,6 +20,7 @@ const Index = () => {
         <ApproachSection />
         <ExpertiseSection />
         <AboutSection />
+        <EngagementSection />
         <CTASection />
       </main>
       <Footer />

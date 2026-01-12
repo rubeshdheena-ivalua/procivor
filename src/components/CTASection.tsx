@@ -21,9 +21,9 @@ const CTASection = () => {
             Start a Conversation
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-            Need an Ivalua expert
+            Need an Ivalua expert who
             <br />
-            who <span className="text-accent">owns delivery?</span>
+            <span className="text-accent">owns delivery end to end?</span>
           </h2>
           <p className="text-lg text-primary-foreground/70 mb-10 max-w-2xl mx-auto">
             Let's discuss your Ivalua implementation challenges. 
@@ -34,7 +34,7 @@ const CTASection = () => {
             href="mailto:contact@valuax.com"
             className="btn-primary group text-base"
           >
-            Start a Conversation
+            Talk to the Architect
             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
           </a>
 
