@@ -51,22 +51,21 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         // Valuax custom colors
-        "cyan-dark": {
-          DEFAULT: "hsl(var(--cyan-dark))",
-          light: "hsl(var(--cyan-dark-light))",
+        graphite: {
+          DEFAULT: "hsl(var(--graphite))",
+          light: "hsl(var(--graphite-light))",
         },
-        "cyan-vivid": {
-          DEFAULT: "hsl(var(--cyan-vivid))",
-          light: "hsl(var(--cyan-vivid-light))",
+        steel: {
+          DEFAULT: "hsl(var(--steel))",
+          light: "hsl(var(--steel-light))",
         },
-        "signal-blue": {
-          DEFAULT: "hsl(var(--signal-blue))",
-          dark: "hsl(var(--signal-blue-dark))",
+        "signal-orange": {
+          DEFAULT: "hsl(var(--signal-orange))",
+          dark: "hsl(var(--signal-orange-dark))",
         },
-        neutral: "hsl(var(--neutral))",
-        frost: {
-          DEFAULT: "hsl(var(--frost))",
-          light: "hsl(var(--frost-light))",
+        "sky-blue": {
+          DEFAULT: "hsl(var(--sky-blue))",
+          dark: "hsl(var(--sky-blue-dark))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
