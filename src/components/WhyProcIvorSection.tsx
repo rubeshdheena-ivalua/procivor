@@ -23,7 +23,7 @@ const credentials = [
   },
   {
     icon: Building2,
-    title: "Architecture Ownership: FIT-GAP to Hypercare",
+    title: "Architecture Ownership: Fit-Gap to Hypercare",
     description: "Full accountability across the entire delivery lifecycle.",
   },
   {
@@ -33,28 +33,28 @@ const credentials = [
   },
 ];
 
-const WhyValuaxSection = () => {
+const WhyProcIvorSection = () => {
   return (
-    <section id="why-valuax" className="section-padding bg-muted">
+    <section id="why-procivor" className="section-padding bg-muted">
       <div className="section-container">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Left Content */}
           <div className="lg:sticky lg:top-32">
-            <span className="label-eyebrow mb-4 block">Why Valuax</span>
+            <span className="label-eyebrow mb-4 block">Why ProcIvor</span>
             <h2 className="heading-section text-primary mb-6">
               Execution Credibility
               <br />
               <span className="text-accent">That Delivers</span>
             </h2>
             <p className="text-body-large mb-8">
-              Valuax brings architect-level expertise to every engagement. 
+              ProcIvor brings architect-level expertise to every engagement. 
               We don't just consult — we own the technical delivery from 
               design to production.
             </p>
             <div className="divider-accent mb-8" />
             <p className="text-body">
               Our approach eliminates the gap between strategy and implementation. 
-              When you engage Valuax, you get hands-on expertise — not handoffs to junior resources.
+              When you engage ProcIvor, you get hands-on expertise — not handoffs to junior resources.
             </p>
           </div>
 
@@ -86,4 +86,4 @@ const WhyValuaxSection = () => {
   );
 };
 
-export default WhyValuaxSection;
+export default WhyProcIvorSection;

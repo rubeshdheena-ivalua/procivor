@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/procivor-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
     { label: "Services", href: "#services" },
-    { label: "Why Valuax", href: "#why-valuax" },
+    { label: "Why ProcIvor", href: "#why-procivor" },
     { label: "Approach", href: "#approach" },
     { label: "Expertise", href: "#expertise" },
     { label: "About", href: "#about" },
@@ -17,10 +18,8 @@ const Header = () => {
       <div className="section-container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-primary tracking-tight">
-              Valuax
-            </span>
+          <a href="#" className="flex items-center">
+            <img src={logo} alt="ProcIvor" className="h-8 md:h-10" />
           </a>
 
           {/* Desktop Navigation */}
