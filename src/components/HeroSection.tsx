@@ -29,16 +29,16 @@ const HeroSection = () => {
 
           {/* Main Headline */}
           <h1 className="opacity-0 animate-fade-up stagger-1 text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-[1.1] mb-8">
-            We deliver Ivalua
+            Ivalua projects.
             <br />
-            <span className="text-accent">Projects.</span>
+            <span className="text-accent">Architect-led.</span>
           </h1>
 
           {/* Subtext - Refined Copy */}
           <p className="opacity-0 animate-fade-up stagger-2 text-lg md:text-xl text-primary-foreground/80 max-w-2xl mb-12 leading-relaxed">
-            Valuax delivers Ivalua Source-to-Pay implementations led directly 
-            by a senior Solution Architect — from fit-gap to go-live and 
-            production support.
+            ProcIvor delivers Ivalua Source-to-Pay implementations led directly 
+            by a senior Solution Architect — from fit-gap and architecture 
+            through go-live and stabilization.
           </p>
 
           {/* CTAs */}
