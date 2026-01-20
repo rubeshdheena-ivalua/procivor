@@ -44,7 +44,7 @@ const HeroSection = () => {
           {/* CTAs */}
           <div className="opacity-0 animate-fade-up stagger-3 flex flex-col sm:flex-row gap-4">
             <a
-              href="#contact"
+              href="mailto:rubeshdheena@gmail.com"
               className="btn-primary group"
             >
               Talk to the Architect

@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <img src={logo} alt="ProcIvor" className="h-10 md:h-12" />
+            <img src={logo} alt="ProcIvor" className="h-14 md:h-16" />
           </a>
 
           {/* Desktop Navigation */}
@@ -37,7 +37,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <a
-            href="#contact"
+            href="mailto:rubeshdheena@gmail.com"
             className="hidden lg:inline-flex px-5 py-2.5 bg-accent text-accent-foreground text-sm font-semibold rounded-md hover:bg-accent/90 transition-colors"
           >
             Talk to an Architect
@@ -68,7 +68,7 @@ const Header = () => {
                 </a>
               ))}
               <a
-                href="#contact"
+                href="mailto:rubeshdheena@gmail.com"
                 onClick={() => setIsMenuOpen(false)}
                 className="px-5 py-2.5 bg-accent text-accent-foreground text-sm font-semibold rounded-md hover:bg-accent/90 transition-colors mt-4 text-center"
               >
