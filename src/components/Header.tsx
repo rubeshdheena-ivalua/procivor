@@ -14,12 +14,12 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-primary backdrop-blur-sm border-b border-primary/50">
       <div className="section-container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <img src={logo} alt="ProcIvor" className="h-6 md:h-7" />
+            <img src={logo} alt="ProcIvor" className="h-10 md:h-12" />
           </a>
 
           {/* Desktop Navigation */}
@@ -28,7 +28,7 @@ const Header = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
+                className="text-sm font-medium text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
               >
                 {item.label}
               </a>
@@ -38,7 +38,7 @@ const Header = () => {
           {/* CTA Button */}
           <a
             href="#contact"
-            className="hidden lg:inline-flex btn-primary"
+            className="hidden lg:inline-flex px-5 py-2.5 bg-accent text-accent-foreground text-sm font-semibold rounded-md hover:bg-accent/90 transition-colors"
           >
             Talk to an Architect
           </a>
@@ -46,7 +46,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 text-primary"
+            className="lg:hidden p-2 text-primary-foreground"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -55,14 +55,14 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden py-6 border-t border-border/50 animate-fade-in">
+          <div className="lg:hidden py-6 border-t border-primary-foreground/20 animate-fade-in">
             <nav className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="text-base font-medium text-muted-foreground hover:text-primary transition-colors py-2"
+                  className="text-base font-medium text-primary-foreground/80 hover:text-primary-foreground transition-colors py-2"
                 >
                   {item.label}
                 </a>
@@ -70,7 +70,7 @@ const Header = () => {
               <a
                 href="#contact"
                 onClick={() => setIsMenuOpen(false)}
-                className="btn-primary mt-4 text-center"
+                className="px-5 py-2.5 bg-accent text-accent-foreground text-sm font-semibold rounded-md hover:bg-accent/90 transition-colors mt-4 text-center"
               >
                 Talk to an Architect
               </a>
