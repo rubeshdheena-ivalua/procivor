@@ -31,7 +31,7 @@ const CTASection = () => {
           </p>
 
           <a
-            href="mailto:contact@procivor.com"
+            href="mailto:rubeshdheena@gmail.com"
             className="btn-primary group text-base"
           >
             Talk to the Architect
